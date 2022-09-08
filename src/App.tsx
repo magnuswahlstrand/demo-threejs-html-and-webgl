@@ -54,7 +54,7 @@ function Model() {
 
     return (
         // @ts-ignore TODO: Fix
-        <group ref={ref} rotation={[Math.PI, 0, Math.PI]} scale={2}>
+        <group ref={ref} rotation={[Math.PI, 0, Math.PI]} scale={1.8}>
             {/*@ts-ignore TODO: Fix */}
             <Clone object={scene.scene}/>
             <Html className="content" rotation-y={Math.PI / 2} position={[0.925, 0.80, 0.01]} transform occlude
